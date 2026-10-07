@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite both the manuscript and this archived release."
+title: "Independent external validation of virtual multiplex immunofluorescence from H&E reveals that predicted channels encode tissue composition rather than cell identity"
+abstract: >-
+  Code and derived results for an independent external validation of GigaTIME and GigaTIME-Flash. We
+  reproduced the authors' own released evaluation protocol, then tested both models against four independently
+  generated real-measurement datasets spanning pixel, spatial-transcriptomic, patient and single-cell
+  resolution. Virtual mIF supports tissue-composition characterisation but not quantitative marker readout.
+type: software
+authors:
+  - family-names: Chen
+    given-names: Liangliang
+    affiliation: "Ningbo No. 2 Hospital, Ningbo, Zhejiang, China"
+  - family-names: Wang
+    given-names: Leiling
+    affiliation: "Ningbo No. 2 Hospital, Ningbo, Zhejiang, China"
+  - family-names: Yi
+    given-names: Zhanbo
+    affiliation: "Ningbo No. 2 Hospital, Ningbo, Zhejiang, China"
+    email: 15376775258@163.com
+contact:
+  - family-names: Yi
+    given-names: Zhanbo
+    email: 15376775258@163.com
+license: MIT
+repository-code: "https://github.com/REPLACE-WITH-GITHUB-USERNAME/gigatime-external-validation"
+keywords:
+  - virtual staining
+  - multiplex immunofluorescence
+  - computational pathology
+  - external validation
+  - tumour microenvironment
+  - spatial proteomics
+  - model evaluation
+version: 1.0.0
+date-released: 2026-10-07

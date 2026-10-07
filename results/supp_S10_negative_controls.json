@@ -1,0 +1,72 @@
+[
+ {
+  "marker": "AF1",
+  "n": 41,
+  "median": 0.241,
+  "max": 0.376,
+  "top_channel": "DAPI"
+ },
+ {
+  "marker": "Argo550",
+  "n": 41,
+  "median": 0.277,
+  "max": 0.553,
+  "top_channel": "CK_1:150"
+ },
+ {
+  "marker": "CD45",
+  "n": 41,
+  "median": 0.402,
+  "max": 0.564,
+  "top_channel": "CD4"
+ },
+ {
+  "marker": "FOXP3",
+  "n": 41,
+  "median": 0.266,
+  "max": 0.521,
+  "top_channel": "CD20"
+ },
+ {
+  "marker": "CD45RO",
+  "n": 41,
+  "median": 0.339,
+  "max": 0.533,
+  "top_channel": "CK_1:150"
+ },
+ {
+  "marker": "CD163",
+  "n": 41,
+  "median": 0.352,
+  "max": 0.549,
+  "top_channel": "Tryptase"
+ },
+ {
+  "marker": "Pan-CK (nominal)",
+  "n": 41,
+  "median": 0.468,
+  "max": 0.681,
+  "top_channel": "-"
+ },
+ {
+  "marker": "E-cadherin (nominal)",
+  "n": 41,
+  "median": 0.456,
+  "max": 0.698,
+  "top_channel": "-"
+ },
+ {
+  "marker": "CD3e (nominal)",
+  "n": 41,
+  "median": 0.236,
+  "max": 0.444,
+  "top_channel": "-"
+ },
+ {
+  "marker": "CD20 (nominal)",
+  "n": 41,
+  "median": 0.22,
+  "max": 0.541,
+  "top_channel": "-"
+ }
+]

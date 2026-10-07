@@ -1,0 +1,144 @@
+{
+ "sample": "P2",
+ "n_spots": 3154,
+ "pairs": [
+  {
+   "channel": "CD3_1:1000",
+   "module": "Tcell",
+   "rho": 0.09482126792108257,
+   "p": 9.54806101982317e-08
+  },
+  {
+   "channel": "CD8",
+   "module": "Cytotoxic",
+   "rho": 0.034421181175652495,
+   "p": 0.05324646229935416
+  },
+  {
+   "channel": "CD20",
+   "module": "Bcell",
+   "rho": 0.0037689859701492212,
+   "p": 0.8324308712550127
+  },
+  {
+   "channel": "CD138",
+   "module": "Plasma",
+   "rho": 0.18119646117552363,
+   "p": 1.1000433307536642e-24
+  },
+  {
+   "channel": "CD68_1:100",
+   "module": "Macrophage",
+   "rho": 0.09923200731721385,
+   "p": 2.3437864542577732e-08
+  },
+  {
+   "channel": "CD14",
+   "module": "Monocyte",
+   "rho": 0.09763233359619054,
+   "p": 3.92852585330698e-08
+  },
+  {
+   "channel": "CD34",
+   "module": "Endothelial",
+   "rho": 0.08338366814354589,
+   "p": 2.7430402814412145e-06
+  },
+  {
+   "channel": "CK_1:150",
+   "module": "Epithelium",
+   "rho": 0.07680587600371062,
+   "p": 1.5736042372275617e-05
+  },
+  {
+   "channel": "Ki67_1:150",
+   "module": "Prolif",
+   "rho": -0.02743325949657152,
+   "p": 0.12347644840898185
+  },
+  {
+   "channel": "Transgelin",
+   "module": "Stroma",
+   "rho": 0.10340430284951434,
+   "p": 5.865711727637945e-09
+  },
+  {
+   "channel": "Tryptase",
+   "module": "Mast",
+   "rho": 0.11946318305462125,
+   "p": 1.6900451854136713e-11
+  }
+ ],
+ "modules": {
+  "Tcell": [
+   "CD3D",
+   "CD3E",
+   "CD2",
+   "TRAC",
+   "IL7R"
+  ],
+  "Cytotoxic": [
+   "CD8A",
+   "GZMB",
+   "PRF1",
+   "NKG7",
+   "GZMA"
+  ],
+  "Bcell": [
+   "MS4A1",
+   "CD79A",
+   "CD79B",
+   "CD19"
+  ],
+  "Plasma": [
+   "MZB1",
+   "JCHAIN",
+   "SDC1",
+   "IGHG1"
+  ],
+  "Macrophage": [
+   "CD68",
+   "CD163",
+   "CSF1R",
+   "MSR1",
+   "C1QA"
+  ],
+  "Monocyte": [
+   "CD14",
+   "LYZ",
+   "S100A8",
+   "FCN1"
+  ],
+  "Endothelial": [
+   "PECAM1",
+   "VWF",
+   "CD34",
+   "CLDN5"
+  ],
+  "Epithelium": [
+   "EPCAM",
+   "KRT8",
+   "KRT18",
+   "KRT19",
+   "KRT7"
+  ],
+  "Prolif": [
+   "MKI67",
+   "TOP2A",
+   "PCNA",
+   "CCNB1"
+  ],
+  "Stroma": [
+   "FAP",
+   "COL1A1",
+   "COL1A2",
+   "ACTA2",
+   "POSTN"
+  ],
+  "Mast": [
+   "TPSAB1",
+   "TPSB2",
+   "CPA3"
+  ]
+ }
+}

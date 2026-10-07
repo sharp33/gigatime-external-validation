@@ -1,0 +1,610 @@
+{
+ "cross_reactivity": {
+  "DAPI": {
+   "median_abs_rho": 0.15614561459984833,
+   "p95_abs_rho": 0.3655919001697353,
+   "n_gt_03": 25,
+   "n_proteins": 175
+  },
+  "TRITC": {
+   "median_abs_rho": 0.0775329029087932,
+   "p95_abs_rho": 0.19484313158805364,
+   "n_gt_03": 0,
+   "n_proteins": 175
+  },
+  "Cy5": {
+   "median_abs_rho": 0.07484141490756471,
+   "p95_abs_rho": 0.1823665964525895,
+   "n_gt_03": 0,
+   "n_proteins": 175
+  },
+  "PD-1_1:200": {
+   "median_abs_rho": 0.12068699824353055,
+   "p95_abs_rho": 0.29303794795749427,
+   "n_gt_03": 7,
+   "n_proteins": 175
+  },
+  "CD14": {
+   "median_abs_rho": 0.13427523662290217,
+   "p95_abs_rho": 0.3021392717515113,
+   "n_gt_03": 10,
+   "n_proteins": 175
+  },
+  "CD4": {
+   "median_abs_rho": 0.1299166588519698,
+   "p95_abs_rho": 0.33083117289414254,
+   "n_gt_03": 15,
+   "n_proteins": 175
+  },
+  "T-bet": {
+   "median_abs_rho": 0.1008736920874547,
+   "p95_abs_rho": 0.2635381965745235,
+   "n_gt_03": 1,
+   "n_proteins": 175
+  },
+  "CD34": {
+   "median_abs_rho": 0.06459164966155206,
+   "p95_abs_rho": 0.19409308857001928,
+   "n_gt_03": 0,
+   "n_proteins": 175,
+   "paired_target": "CD31",
+   "paired_abs_rho": 0.06546909712301431,
+   "paired_percentile": 50.857142857142854
+  },
+  "CD68_1:100": {
+   "median_abs_rho": 0.14527663252344486,
+   "p95_abs_rho": 0.32357303668258813,
+   "n_gt_03": 14,
+   "n_proteins": 175
+  },
+  "CD16": {
+   "median_abs_rho": 0.1325177780076644,
+   "p95_abs_rho": 0.30951695968841836,
+   "n_gt_03": 10,
+   "n_proteins": 175
+  },
+  "CD11c": {
+   "median_abs_rho": 0.13576857974944445,
+   "p95_abs_rho": 0.3067655359695744,
+   "n_gt_03": 10,
+   "n_proteins": 175
+  },
+  "CD138": {
+   "median_abs_rho": 0.17940405397291173,
+   "p95_abs_rho": 0.4121901743322336,
+   "n_gt_03": 38,
+   "n_proteins": 175
+  },
+  "CD20": {
+   "median_abs_rho": 0.11170399748611304,
+   "p95_abs_rho": 0.2558735510463287,
+   "n_gt_03": 3,
+   "n_proteins": 175,
+   "paired_target": "CD20",
+   "paired_abs_rho": 0.12349478613541313,
+   "paired_percentile": 53.714285714285715
+  },
+  "CD3_1:1000": {
+   "median_abs_rho": 0.1193509521127564,
+   "p95_abs_rho": 0.29253502884905375,
+   "n_gt_03": 7,
+   "n_proteins": 175
+  },
+  "CD8": {
+   "median_abs_rho": 0.1452751373616581,
+   "p95_abs_rho": 0.29488585231133374,
+   "n_gt_03": 8,
+   "n_proteins": 175
+  },
+  "PD-L1": {
+   "median_abs_rho": 0.1787750336514971,
+   "p95_abs_rho": 0.3668861172921783,
+   "n_gt_03": 25,
+   "n_proteins": 175
+  },
+  "CK_1:150": {
+   "median_abs_rho": 0.135199846885418,
+   "p95_abs_rho": 0.310208607649916,
+   "n_gt_03": 13,
+   "n_proteins": 175
+  },
+  "Ki67_1:150": {
+   "median_abs_rho": 0.14854033872762443,
+   "p95_abs_rho": 0.3397126688606509,
+   "n_gt_03": 20,
+   "n_proteins": 175
+  },
+  "Tryptase": {
+   "median_abs_rho": 0.04670957640231329,
+   "p95_abs_rho": 0.10297099876554905,
+   "n_gt_03": 0,
+   "n_proteins": 175
+  },
+  "Actin-D": {
+   "median_abs_rho": 0.13789690102008753,
+   "p95_abs_rho": 0.32124700639604353,
+   "n_gt_03": 15,
+   "n_proteins": 175
+  },
+  "Caspase3-D": {
+   "median_abs_rho": 0.13757334226867332,
+   "p95_abs_rho": 0.3304515399477151,
+   "n_gt_03": 17,
+   "n_proteins": 175,
+   "paired_target": "Caspase3",
+   "paired_abs_rho": 0.08540799387541673,
+   "paired_percentile": 33.714285714285715
+  },
+  "PHH3-B": {
+   "median_abs_rho": 0.14338372899370178,
+   "p95_abs_rho": 0.3093869893539118,
+   "n_gt_03": 10,
+   "n_proteins": 175
+  },
+  "Transgelin": {
+   "median_abs_rho": 0.12646653729797586,
+   "p95_abs_rho": 0.3123024474484349,
+   "n_gt_03": 12,
+   "n_proteins": 175
+  }
+ },
+ "residualized": {
+  "CD20": {
+   "paired_channel": "CD20",
+   "residual_rho": 0.0254432343590877,
+   "rank": 20,
+   "best_other_channel": "CD138",
+   "best_other_abs": 0.16697880032092643,
+   "specificity": -0.14153556596183875
+  },
+  "Caspase3": {
+   "paired_channel": "Caspase3-D",
+   "residual_rho": 0.14356521162113356,
+   "rank": 12,
+   "best_other_channel": "PD-L1",
+   "best_other_abs": 0.24439928027371977,
+   "specificity": -0.1008340686525862
+  },
+  "CD31": {
+   "paired_channel": "CD34",
+   "residual_rho": 0.07029834858903707,
+   "rank": 18,
+   "best_other_channel": "Ki67_1:150",
+   "best_other_abs": 0.3024917862691538,
+   "specificity": -0.23219343768011674
+  }
+ },
+ "global_95pct_abs_rho": 0.31407471461561987,
+ "n_patients": 222,
+ "n_slides": 227,
+ "aggregation_ablation": {
+  "CD20|mean|spearman": -0.12349478613541313,
+  "CD20|mean|pearson": -0.08459965611093316,
+  "CD20|median|spearman": -0.12349478613541313,
+  "CD20|median|pearson": -0.08459965611093316,
+  "CD20|max|spearman": -0.12606463505133877,
+  "CD20|max|pearson": -0.08579527726280552,
+  "Caspase3|mean|spearman": 0.08540799387541673,
+  "Caspase3|mean|pearson": 0.05963829308462852,
+  "Caspase3|median|spearman": 0.08540799387541673,
+  "Caspase3|median|pearson": 0.05963829308462852,
+  "Caspase3|max|spearman": 0.08422453661176955,
+  "Caspase3|max|pearson": 0.05701793430342952,
+  "CD31|mean|spearman": 0.06546909712301431,
+  "CD31|mean|pearson": 0.07187597819790667,
+  "CD31|median|spearman": 0.06546909712301431,
+  "CD31|median|pearson": 0.07187597819790667,
+  "CD31|max|spearman": 0.0628093345054569,
+  "CD31|max|pearson": 0.0691376698191284
+ },
+ "split_half": {
+  "CD20": {
+   "sign_consistency": 0.948,
+   "split_half_r": -0.9679141935566444,
+   "mean_abs_rho": 0.12397918519922946
+  },
+  "Caspase3": {
+   "sign_consistency": 0.774,
+   "split_half_r": -0.9715878667830827,
+   "mean_abs_rho": 0.09060709020709021
+  },
+  "CD31": {
+   "sign_consistency": 0.618,
+   "split_half_r": -0.9746342538484106,
+   "mean_abs_rho": 0.07877796595296595
+  }
+ },
+ "composition_axis": {
+  "DAPI": [
+   -0.29620487520777683,
+   -0.2584285683731741,
+   0.06535502895302422
+  ],
+  "TRITC": [
+   0.19034961345697302,
+   -0.0005346945468285484,
+   -0.09139547599056966
+  ],
+  "Cy5": [
+   0.15454756341066023,
+   -0.07448048255223144,
+   -0.1427634440032224
+  ],
+  "PD-1_1:200": [
+   0.009411172428845867,
+   -0.2567460628658202,
+   -0.29787421900320876
+  ],
+  "CD14": [
+   0.10010852928288962,
+   -0.33935006369720166,
+   -0.15771514874653889
+  ],
+  "CD4": [
+   -0.027684015813796876,
+   -0.34977962358600717,
+   -0.2966063074213958
+  ],
+  "T-bet": [
+   0.036035719838352985,
+   -0.2373032492748883,
+   -0.3391536514069649
+  ],
+  "CD34": [
+   0.008443786602583755,
+   -0.10450125063683492,
+   -0.1659401218884205
+  ],
+  "CD68_1:100": [
+   0.10920546583959934,
+   -0.3944285376625129,
+   -0.09304836764609913
+  ],
+  "CD16": [
+   0.06514773199025377,
+   -0.33512296055160734,
+   -0.05255965134625119
+  ],
+  "CD11c": [
+   0.07799797145059674,
+   -0.36722228300376963,
+   -0.140695448596514
+  ],
+  "CD138": [
+   -0.25725936963077567,
+   -0.41774560714154496,
+   -0.03550207269542537
+  ],
+  "CD20": [
+   0.00221281281687507,
+   -0.26539001717055005,
+   -0.19248290759765305
+  ],
+  "CD3_1:1000": [
+   -0.06899095187145833,
+   -0.27771925081342125,
+   -0.321884471976796
+  ],
+  "CD8": [
+   -0.03443268360176828,
+   -0.379639160699567,
+   -0.08410717801379897
+  ],
+  "PD-L1": [
+   0.11995752056312851,
+   -0.43332809606737793,
+   -0.25429476374858684
+  ],
+  "CK_1:150": [
+   -0.28236094788455646,
+   -0.18432374301538113,
+   0.20368242763389166
+  ],
+  "Ki67_1:150": [
+   0.026578432012354464,
+   -0.428088519093531,
+   -0.2392815679547413
+  ],
+  "Tryptase": [
+   -0.03411373557472319,
+   -0.07400056486209185,
+   0.027815815160928143
+  ],
+  "Actin-D": [
+   -0.0904544135881514,
+   -0.32419325560976847,
+   -0.2886785696070845
+  ],
+  "Caspase3-D": [
+   -0.1219438093613773,
+   -0.3827804226116018,
+   -0.030677208466709925
+  ],
+  "PHH3-B": [
+   0.1535182499525002,
+   -0.3149582074401651,
+   -0.25364216202017936
+  ],
+  "Transgelin": [
+   -0.12796916648775442,
+   -0.27874265034724677,
+   -0.2846648739313411
+  ]
+ },
+ "partial": {
+  "CD20": {
+   "paired_channel": "CD20",
+   "raw_rho": -0.12349478613541313,
+   "partial_pc1": -0.14246475439002612,
+   "partial_pc13": -0.0679063516870776
+  },
+  "Caspase3": {
+   "paired_channel": "Caspase3-D",
+   "raw_rho": 0.08540799387541673,
+   "partial_pc1": 0.29807440113716277,
+   "partial_pc13": 0.044899679320127325
+  },
+  "CD31": {
+   "paired_channel": "CD34",
+   "raw_rho": 0.06546909712301431,
+   "partial_pc1": 0.07179276542031805,
+   "partial_pc13": 0.019444214644985323
+  }
+ },
+ "best_channel": {
+  "CD20": {
+   "best_channel": "CD138",
+   "best_rho": -0.3958241874735164,
+   "best_p": 9.596586094105209e-10,
+   "bonferroni_threshold": 0.20470755864413737,
+   "passes": true,
+   "paired_channel": "CD20",
+   "paired_rho": -0.12349478613541313,
+   "paired_rank": 10,
+   "n_tests": 23
+  },
+  "Caspase3": {
+   "best_channel": "PD-L1",
+   "best_rho": 0.25826411779078284,
+   "best_p": 9.918814374476534e-05,
+   "bonferroni_threshold": 0.20470755864413737,
+   "passes": true,
+   "paired_channel": "Caspase3-D",
+   "paired_rho": 0.08540799387541673,
+   "paired_rank": 17,
+   "n_tests": 23
+  },
+  "CD31": {
+   "best_channel": "CD68_1:100",
+   "best_rho": 0.37361219344864827,
+   "best_p": 9.21101205336243e-09,
+   "bonferroni_threshold": 0.20470755864413737,
+   "passes": true,
+   "paired_channel": "CD34",
+   "paired_rho": 0.06546909712301431,
+   "paired_rank": 21,
+   "n_tests": 23
+  }
+ },
+ "pca_explained": [
+  0.1761261061506782,
+  0.16811045290497703,
+  0.06609041897671314,
+  0.053298003695302486,
+  0.04348325636640505
+ ],
+ "pc1_top_proteins": [
+  [
+   "MTOR|mTOR",
+   -0.15041417888301298
+  ],
+  [
+   "KRAS|K-Ras",
+   0.14381315810960296
+  ],
+  [
+   "XRCC5|Ku80",
+   -0.14026371520181133
+  ],
+  [
+   "CASP3|Caspase-3_active",
+   0.13979539808313932
+  ],
+  [
+   "CHEK2|Chk2_pT68",
+   0.13499748813817034
+  ],
+  [
+   "TP53BP1|53BP1",
+   -0.128380121011368
+  ],
+  [
+   "FOXO3|FOXO3a",
+   0.1265537743399988
+  ],
+  [
+   "CTNNB1|beta-Catenin",
+   -0.12654363503876873
+  ]
+ ],
+ "rppa_coverage": {
+  "n_proteins": 175,
+  "proteins_used": [
+   "YWHAE|14-3-3_epsilon",
+   "EIF4EBP1|4E-BP1",
+   "EIF4EBP1|4E-BP1_pS65",
+   "EIF4EBP1|4E-BP1_pT37",
+   "EIF4EBP1|4E-BP1_pT70",
+   "TP53BP1|53BP1",
+   "ACACA|ACC1",
+   "ACACA ACACB|ACC_pS79",
+   "NCOA3|AIB1",
+   "PRKAA1|AMPK_alpha",
+   "PRKAA1|AMPK_pT172",
+   "AR|AR",
+   "ARID1A|ARID1A",
+   "ASNS|ASNS",
+   "ATM|ATM",
+   "AKT1 AKT2 AKT3|Akt",
+   "AKT1 AKT2 AKT3|Akt_pS473",
+   "AKT1 AKT2 AKT3|Akt_pT308",
+   "ANXA1|Annexin_I",
+   "BAD|Bad_pS112",
+   "BAK1|Bak",
+   "BAX|Bax",
+   "BCL2|Bcl-2",
+   "BCL2L1|Bcl-X",
+   "BCL2L1|Bcl-xL",
+   "BECN1|Beclin",
+   "BID|Bid",
+   "BCL2L11|Bim",
+   "RAF1|C-Raf",
+   "RAF1|C-Raf_pS338",
+   "CD20|CD20",
+   "PECAM1|CD31",
+   "ITGA2|CD49b",
+   "CDK1|CDK1",
+   "PTGS2|COX-2",
+   "CASP3|Caspase-3_active",
+   "CASP7|Caspase-7_cleavedD198",
+   "CASP8|Caspase-8",
+   "CASP9|Caspase-9_cleavedD330",
+   "CAV1|Caveolin-1",
+   "CHEK1|Chk1",
+   "CHEK1|Chk1_pS345",
+   "CHEK2|Chk2",
+   "CHEK2|Chk2_pT68",
+   "CLDN7|Claudin-7",
+   "COL6A1|Collagen_VI",
+   "CCNB1|Cyclin_B1",
+   "CCND1|Cyclin_D1",
+   "CCNE1|Cyclin_E1",
+   "CCNE2|Cyclin_E2",
+   "PARK7|DJ-1",
+   "DVL3|Dvl3",
+   "CDH1|E-Cadherin",
+   "EGFR|EGFR_pY1068",
+   "EGFR|EGFR_pY1173",
+   "ESR1|ER-alpha",
+   "ESR1|ER-alpha_pS118",
+   "ERCC1|ERCC1",
+   "MAPK1|ERK2",
+   "PTK2|FAK",
+   "FOXO3|FOXO3a",
+   "FOXO3|FOXO3a_pS318_S321",
+   "FN1|Fibronectin",
+   "GAB2|GAB2",
+   "GATA3|GATA3",
+   "GSK3A GSK3B|GSK3-alpha-beta",
+   "GSK3A GSK3B|GSK3-alpha-beta_pS21_S9",
+   "GSK3A GSK3B|GSK3_pS9",
+   "ERBB2|HER2",
+   "ERBB2|HER2_pY1248",
+   "ERBB3|HER3",
+   "ERBB3|HER3_pY1298",
+   "HSPA1A|HSP70",
+   "IGF1R|IGF-1R-beta",
+   "IGFBP2|IGFBP2",
+   "INPP4B|INPP4B",
+   "IRS1|IRS1",
+   "MAPK9|JNK2",
+   "MAPK8|JNK_pT183_pT185",
+   "KRAS|K-Ras",
+   "XRCC5|Ku80",
+   "STK11|LKB1",
+   "LCK|Lck",
+   "MAPK1 MAPK3|MAPK_pT202_Y204",
+   "MAP2K1|MEK1",
+   "MAP2K1|MEK1_pS217_S221",
+   "ERRFI1|MIG-6",
+   "MSH2|MSH2",
+   "MSH6|MSH6",
+   "MRE11A|Mre11",
+   "CDH2|N-Cadherin",
+   "NEK7|NEK7",
+   "NFKB1|NF-kB-p65_pS536",
+   "NF2|NF2",
+   "NOTCH1|Notch1",
+   "NOTCH3|Notch3",
+   "CDH3|P-Cadherin",
+   "|P-REX1",
+   "PARP1|PARP_cleaved",
+   "PCNA|PCNA",
+   "PDK1|PDK1_pS241",
+   "PEA-15|PEA-15",
+   "PIK3CA |PI3K-p110-alpha",
+   "PIK3R1/2|PI3K-p85",
+   "PRKCA |PKC-alpha",
+   "PRKCA |PKC-alpha_pS657",
+   "PRKCD|PKC-delta_pS664",
+   "PGR|PR",
+   "AKT1S1|PRAS40_pT246",
+   "PTCH1|PTCH",
+   "PTEN|PTEN",
+   "PAI-1|Pal-1",
+   "PXN|Paxillin",
+   "RAB11A RAB11B|Rab11",
+   "Rab 25|Rab25",
+   "RAD50|Rad50",
+   "RAD51|Rad51",
+   "RB1|Rb",
+   "RB1|Rb_pS807_S811",
+   "RPS6|S6",
+   "RPS6|S6_pS235_S236",
+   "RPS6|S6_pS240_S244",
+   "SETD2|SETD2",
+   "STAT3|STAT3_pY705",
+   "STAT5A|STAT5-alpha",
+   "SHC1|Shc_pY317",
+   "DIABLO|Smac",
+   "SMAD1|Smad1",
+   "SMAD3|Smad3",
+   "SMAD4|Smad4",
+   "SNAI2|Snail",
+   "SRC|Src",
+   "SRC|Src_pY416",
+   "SRC|Src_pY527",
+   "STMN1|Stathmin",
+   "SYK|Syk",
+   "WWTR1|TAZ",
+   "WWTR1|TAZ_pS89",
+   "TFF1|TFF1",
+   "C12ORF5|TIGAR",
+   "MAPT|Tau",
+   "TGM2|Transglutaminase",
+   "TSC2|Tuberin",
+   "VASP|VASP",
+   "KDR|VEGFR2",
+   "XBP1|XBP1",
+   "XIAP|XIAP",
+   "XRCC1|XRCC1",
+   "YAP1|YAP",
+   "YAP1|YAP_pS127",
+   "YBX1|YB-1",
+   "YBX1|YB-1_pS102",
+   "CTNNA1|alpha-Catenin",
+   "CTNNB1|beta-Catenin",
+   "JUN|c-Jun_pS73",
+   "KIT|c-Kit",
+   "MET|c-Met",
+   "MET|c-Met_pY1235",
+   "MYC|c-Myc",
+   "BIRC2 |cIAP",
+   "EEF2|eEF2",
+   "EEF2K|eEF2K",
+   "EIF4E|eIF4E",
+   "MTOR|mTOR",
+   "MTOR|mTOR_pS2448",
+   "CDKN1A|p21",
+   "CDKN1B|p27",
+   "CDKN1B|p27_pT157",
+   "CDKN1B|p27_pT198",
+   "MAPK14|p38_MAPK",
+   "MAPK14|p38_pT180_Y182",
+   "TP53|p53",
+   "RPS6KB1|p70S6K",
+   "RPS6KB1|p70S6K_pT389",
+   "RPS6KA1|p90RSK_pT359_S363"
+  ]
+ }
+}
