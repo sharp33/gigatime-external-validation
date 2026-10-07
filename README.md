@@ -108,7 +108,8 @@ each script, or create a matching directory tree, as described in data/README.md
 ## Citation
 
 If you use this code or these results, please cite the manuscript (see CITATION.cff). The archived release is
-available at Zenodo: DOI [to be inserted after the first release]. The source repository is https://github.com/sharp33/gigatime-external-validation.
+available at Zenodo: https://doi.org/10.5281/zenodo.23206399 (concept DOI, which always resolves to the latest version).
+The source repository is https://github.com/sharp33/gigatime-external-validation.
 
 ## Licence
 

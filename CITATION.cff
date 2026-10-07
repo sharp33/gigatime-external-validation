@@ -24,6 +24,7 @@ contact:
     email: 15376775258@163.com
 license: MIT
 repository-code: "https://github.com/sharp33/gigatime-external-validation"
+doi: 10.5281/zenodo.23206399
 keywords:
   - virtual staining
   - multiplex immunofluorescence
@@ -32,5 +33,5 @@ keywords:
   - tumour microenvironment
   - spatial proteomics
   - model evaluation
-version: 1.0.0
+version: 1.0.2
 date-released: 2026-10-07

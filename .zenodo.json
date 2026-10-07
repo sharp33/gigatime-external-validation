@@ -1,9 +1,11 @@
 {
   "title": "Independent external validation of virtual multiplex immunofluorescence from H&E reveals that predicted channels encode tissue composition rather than cell identity",
-  "description": "Code and derived results for an independent external validation of GigaTIME and GigaTIME-Flash. We reproduced the authors' own released evaluation protocol on their published sample tiles (Dice 0.3637 versus their stored 0.3357), and then tested both models against four independently generated real-measurement datasets spanning pixel, spatial-transcriptomic, patient and single-cell resolution. Under the authors' own protocol a channel they declare to be background outscored 15 of 21 protein markers, seven of 21 channels had negative specificity, and specificity was passed by only 1 of 3, 3 of 11, 0 of 3 and 2 of 13 marker pairs across the four layers. The leading virtual axis nevertheless recovered measured tumour composition (patient-level rho = 0.711).",
+  "description": "This record contains the analysis code and derived results for an independent external validation of GigaTIME, a deep-learning model that predicts 23-channel virtual multiplex immunofluorescence (mIF) from a single haematoxylin and eosin (H&E) whole-slide image.\n\nWhat is included\n- analysis/ - Python pipeline for tile extraction, reproduction of the official colour-normalisation and channel-decoding protocol, model inference, and metric computation.\n- analysis/results/ - the derived result files (JSON) that underlie every figure, table and reported statistic in the manuscript.\n- figures/ - publication-quality figure files (PDF and PNG).\n- docs/ - dataset accession list, reproduction instructions and environment specification.\n\nValidation layers\n1. Pixel level: 945 HEMIT patches.\n2. Spot level: 15,489 spots from GSE230424.\n3. Patient level: 222 TCGA-THCA samples with matched RPPA protein measurements.\n4. Single-cell level: 994,729 cells from 41 ORION-CRC patients.\n\nCompanion manuscript: \"Independent external validation of virtual multiplex immunofluorescence from H&E reveals that predicted channels encode tissue composition rather than cell identity\" (under review).\n\nLicence: MIT. No primary data are redistributed here; all third-party datasets are identified by accession and must be obtained from their original sources.",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
+  "language": "eng",
+  "version": "1.0.2",
   "creators": [
     {
       "name": "Chen, Liangliang",
@@ -19,19 +21,20 @@
     }
   ],
   "keywords": [
-    "virtual staining",
-    "multiplex immunofluorescence",
-    "computational pathology",
+    "virtual multiplex immunofluorescence",
+    "digital pathology",
     "external validation",
-    "tumour microenvironment",
+    "deep learning",
+    "haematoxylin and eosin",
     "spatial proteomics",
-    "model evaluation"
+    "generalisation"
   ],
   "related_identifiers": [
     {
-      "relation": "is supplement to",
-      "identifier": "REPLACE-WITH-MANUSCRIPT-DOI",
-      "scheme": "doi"
+      "relation": "is identical to",
+      "identifier": "https://github.com/sharp33/gigatime-external-validation",
+      "scheme": "url",
+      "resource_type": "software"
     },
     {
       "relation": "is derived from",
